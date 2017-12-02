@@ -6,7 +6,6 @@ import secretWord from '../fixtures/secretWord'
 export default (state = lettersArray, { type, payload } = {}) => {
   switch(type) {
     case GUESS_LETTER :
-    console.log(secretWord)
     const correctClassName = secretWord.map(a=>a.letter).includes(payload.letter) ? "correct" : "incorrect"
     return state.map(letter => {
       if (letter.letter === payload.letter) {

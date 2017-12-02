@@ -17,7 +17,7 @@ class Progress extends PureComponent {
 			{
 				<div>
 				<h2>Lives Left: <span>{this.props.progress}</span></h2>
-				<img  className="image" src={images[6-this.props.progress]}/>
+				<img className="image" src={images[6-this.props.progress]} alt="hangman"/>
 				</div>
 			}
 			</div>
