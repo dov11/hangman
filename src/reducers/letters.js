@@ -4,9 +4,12 @@ import lettersArray from '../fixtures/lettersArray'
 export default (state = lettersArray, { type, payload } = {}) => {
   switch(type) {
     case GUESS_LETTER :
-    console.log('guess')
-      return state
-
+    return state.map(letter => {
+      if (letter.letter === payload.letter) {
+        return { ...letter, clicked: true}
+      }
+      return letter
+    })
     default :
       return state
   }

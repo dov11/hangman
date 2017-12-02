@@ -3,6 +3,7 @@ import React, {PureComponent} from 'react'
 // import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 import guess from '../actions/guess'
+import './Letter.css'
 
 
 class Letter extends PureComponent {

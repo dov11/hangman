@@ -1,0 +1,13 @@
+.clicked {
+  background-color: red;
+}
+
+.not-clicked {
+  background-color: blue;
+}
+
+.not-clicked, .clicked {
+  height: 3em;
+  width: 3em;
+  border-radius: 100%;
+}
