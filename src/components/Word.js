@@ -1,6 +1,7 @@
 //src/components/word.js
 import React, {PureComponent} from 'react'
 import PropTypes from 'prop-types'
+import { connect } from 'react-redux'
 
 class Word extends PureComponent {
 	static propTypes = {
@@ -26,5 +27,9 @@ class Word extends PureComponent {
 		)
 	}
 }
+const mapStateToProps = ({ word }) => ({
+  word
+})
 
-export default Word
+export default connect(mapStateToProps)(Word)
+// export default Word
