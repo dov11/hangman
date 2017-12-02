@@ -9,7 +9,8 @@ class LettersContainer extends PureComponent {
 	static propTypes = {
 		letters: PropTypes.arrayOf(PropTypes.shape({
 			letter: PropTypes.string,
-			clicked: PropTypes.bool
+			clicked: PropTypes.bool,
+			correct: PropTypes.string
 		}))
 	}
 
