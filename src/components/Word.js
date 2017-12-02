@@ -19,9 +19,9 @@ class Word extends PureComponent {
 	render() {
 		return (
 			<div>
-			<h2>
-			{this.props.word.map(this.renderWord)}
-			</h2>
+				<h2>
+					{this.props.word.map(this.renderWord)}
+				</h2>
 			</div>
 		)
 	}
