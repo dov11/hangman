@@ -2,8 +2,14 @@
 import React, {PureComponent} from 'react'
 // import PropTypes from 'prop-types'
 
+
 class Letter extends PureComponent {
 	// static propTypes = {
+	// }
+	// toggleLetter() {
+	// 	this.setState({
+	// 		clicked: true
+	// 	})
 	// }
 
 	render() {
@@ -14,5 +20,6 @@ class Letter extends PureComponent {
 		)
 	}
 }
+
 
 export default Letter
