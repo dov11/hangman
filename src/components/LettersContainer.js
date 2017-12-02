@@ -20,7 +20,7 @@ class LettersContainer extends PureComponent {
 	render() {
 		return (
 			<div>
-			{this.props.letters.map(this.renderLetter)}
+				{this.props.letters.map(this.renderLetter)}
 			</div>
 		)
 	}

@@ -27,5 +27,9 @@ class Word extends PureComponent {
 		)
 	}
 }
+const mapStateToProps = ({ word }) => ({
+  word
+})
 
-export default Word
+export default connect(mapStateToProps)(Word)
+// export default Word
