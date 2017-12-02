@@ -4,13 +4,14 @@ import secretWord from '../fixtures/secretWord'
 export default (state = secretWord, { type, payload } = {}) => {
   switch(type) {
     case GUESS_LETTER :
-      return state.map(letter => {
+    
+      const updated = state.map(letter => {
         if (letter.letter === payload.letter) {
           return { ...letter, guessed: true}
         }
         return letter
       })
-
+      return updated
     default :
       return state
   }
