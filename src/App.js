@@ -8,7 +8,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <header>
+          <h1>Hangman Game</h1>
+        </header>
+        <div className="play-area">
         <Word word={{word: secretWord, progress: livesLeftStart, letters: letters}}/>
+        </div>
       </div>
     );
   }

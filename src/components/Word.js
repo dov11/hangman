@@ -22,11 +22,11 @@ class Word extends PureComponent {
 
 	render() {
 		return (
-			<div>
+			<div className="play-area">
 				<h2>Word to Guess:
 					{this.props.word.word.map(this.renderWord)}
 				</h2>
-				{(!this.props.word.progress) && <h2>Word was: <span>{this.props.word.word.map(a=>a.letter).join('')}</span></h2>}
+				{(!this.props.word.progress) && <h2>The word was <span>{this.props.word.word.map(a=>a.letter).join('')}</span></h2>}
 				<div className="flex-container">
 					<Progress progress={this.props.word.progress}/>
 					<LettersContainer letters={this.props.word.letters} />
