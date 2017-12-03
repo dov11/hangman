@@ -2,8 +2,7 @@
 import React, {PureComponent} from 'react'
 import PropTypes from 'prop-types'
 import Letter from './Letter'
-import { connect } from 'react-redux'
-
+import './LettersContainer.css'
 
 class LettersContainer extends PureComponent {
 	static propTypes = {
@@ -20,16 +19,11 @@ class LettersContainer extends PureComponent {
 
 	render() {
 		return (
-			<div>
+			<div className="letters-container">
 				{this.props.letters.map(this.renderLetter)}
 			</div>
 		)
 	}
 }
 
-const mapStateToProps = ({ letters }) => ({
-  letters
-})
-
-export default connect(mapStateToProps)(LettersContainer)
-// export default LettersContainer
+export default LettersContainer
