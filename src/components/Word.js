@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 import Progress from './Progress'
 import LettersContainer from './LettersContainer'
-
+import './Word.css'
 
 class Word extends PureComponent {
 	// static propTypes = {
@@ -23,12 +23,13 @@ class Word extends PureComponent {
 	render() {
 		return (
 			<div>
-				<h2>
+				<h2>Word to Guess: 
 					{this.props.word.word.map(this.renderWord)}
 				</h2>
-				<Progress progress={this.props.word.progress}/>
-				<LettersContainer letters={this.props.word.letters} />
-
+				<div className="flex-container">
+					<Progress progress={this.props.word.progress}/>
+					<LettersContainer letters={this.props.word.letters} />
+				</div>
 			</div>
 		)
 	}

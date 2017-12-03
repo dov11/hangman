@@ -1,7 +1,6 @@
 //src/components/Progress.js
 import React, {PureComponent} from 'react'
 import PropTypes from 'prop-types'
-// import { connect } from 'react-redux'
 import images from '../images/images'
 import './Progress.css'
 import Letter from './Letter'
@@ -43,9 +42,4 @@ class Progress extends PureComponent {
 		)
 	}
 }
-// const mapStateToProps = ({ progress }) => ({
-//   progress
-// })
-//
-// export default connect(mapStateToProps)(Progress)
 export default Progress
