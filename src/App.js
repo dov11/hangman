@@ -10,8 +10,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Word word={{word: secretWord, progress: livesLeftStart}}/>
-        <LettersContainer letters={letters} />
+        <Word word={{word: secretWord, progress: livesLeftStart, letters: letters}}/>
       </div>
     );
   }

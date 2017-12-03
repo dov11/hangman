@@ -3,6 +3,7 @@ import React, {PureComponent} from 'react'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 import Progress from './Progress'
+import LettersContainer from './LettersContainer'
 
 
 class Word extends PureComponent {
@@ -26,6 +27,8 @@ class Word extends PureComponent {
 					{this.props.word.word.map(this.renderWord)}
 				</h2>
 				<Progress progress={this.props.word.progress}/>
+				<LettersContainer letters={this.props.word.letters} />
+
 			</div>
 		)
 	}

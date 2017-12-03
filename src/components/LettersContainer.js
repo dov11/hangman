@@ -27,9 +27,9 @@ class LettersContainer extends PureComponent {
 	}
 }
 
-const mapStateToProps = ({ letters }) => ({
-  letters
-})
-
-export default connect(mapStateToProps)(LettersContainer)
-// export default LettersContainer
+// const mapStateToProps = ({ letters }) => ({
+//   letters
+// })
+//
+// export default connect(mapStateToProps)(LettersContainer)
+export default LettersContainer
