@@ -11,9 +11,7 @@ class App extends Component {
         <header>
           <h1>Hangman Game</h1>
         </header>
-        <div className="play-area">
         <Word word={{word: secretWord, progress: livesLeftStart, letters: letters}}/>
-        </div>
       </div>
     );
   }
