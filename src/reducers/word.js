@@ -19,10 +19,10 @@ export default (state = {word: secretWord, progress: livesLeftStart, letters: le
         return letter
       })
 
-      const guessed = ()=>state.word.map(a=>a.letter).includes(payload.letter)
-      const correctClassName = guessed() ? "correct" : "incorrect"
-      const won = () => !updated.map(a=>a.guessed).includes(false)
-      const lost = () => (!guessed() && state.progress===1)
+      const guessed = state.word.map(a=>a.letter).includes(payload.letter)
+      const correctClassName = guessed ? "correct" : "incorrect"
+      const won = !updated.map(a=>a.guessed).includes(false)
+      const lost = (!guessed && state.progress===1)
 
       const updatedLetters = state.letters.map(letter => {
         if (letter.letter === payload.letter) {
@@ -35,15 +35,26 @@ export default (state = {word: secretWord, progress: livesLeftStart, letters: le
         return letter
       })
 
-      if (!guessed()) {
+      const disabledLetters = updatedLetters.map(letter=>{
+        return {
+          ...letter,
+          clicked: true,
+        }
+      })
+
+      if (lost) {
+        return {word: updated, progress: state.progress-1, letters: disabledLetters}
+      }
+      else if (!guessed) {
         return {word: updated, progress: state.progress-1, letters: updatedLetters}
       }
-      else if (won()){
-        return {word: updated, progress: 100, letters: updatedLetters}
+      else if (won){
+        return {word: updated, progress: 100, letters: disabledLetters}
       }
       else {
         return {word: updated, progress: state.progress, letters: updatedLetters}
       }
+
     default :
       return state
   }
