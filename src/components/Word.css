@@ -2,4 +2,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
+}
+.play-area {
+  border: 0.2em solid rgb(200,120,150);
 }
