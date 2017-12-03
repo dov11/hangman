@@ -2,14 +2,14 @@ import { GUESS_LETTER } from '../actions/guess'
 import secretWord from '../fixtures/secretWord'
 import newSecretWord from '../fixtures/newSecretWord'
 import lettersArray from '../fixtures/lettersArray'
+const livesLeftStart = 6
 
-
-export default (state = {word: secretWord, progress: 2, letters: lettersArray}, { type, payload } = {}) => {
+export default (state = {word: secretWord, progress: livesLeftStart, letters: lettersArray}, { type, payload } = {}) => {
   switch(type) {
     case GUESS_LETTER :
 
       if (payload.letter==='Restart') {
-        return {word: newSecretWord(), progress: 2, letters: lettersArray}
+        return {word: newSecretWord(), progress: livesLeftStart, letters: lettersArray}
       }
 
       const updated = state.word.map(letter => {
@@ -19,7 +19,11 @@ export default (state = {word: secretWord, progress: 2, letters: lettersArray}, 
         return letter
       })
 
-      const correctClassName = state.word.map(a=>a.letter).includes(payload.letter) ? "correct" : "incorrect"
+      const guessed = ()=>state.word.map(a=>a.letter).includes(payload.letter)
+      const correctClassName = guessed() ? "correct" : "incorrect"
+      const won = () => !updated.map(a=>a.guessed).includes(false)
+      const lost = () => (!guessed() && state.progress===1)
+
       const updatedLetters = state.letters.map(letter => {
         if (letter.letter === payload.letter) {
           return {
@@ -31,12 +35,13 @@ export default (state = {word: secretWord, progress: 2, letters: lettersArray}, 
         return letter
       })
 
-      if (!state.word.map(a=>a.letter).includes(payload.letter)) {
+      if (!guessed()) {
         return {word: updated, progress: state.progress-1, letters: updatedLetters}
       }
-      else if (!updated.map(a=>a.guessed).includes(false)){
+      else if (won()){
         return {word: updated, progress: 100, letters: updatedLetters}
-      } else {
+      }
+      else {
         return {word: updated, progress: state.progress, letters: updatedLetters}
       }
     default :
