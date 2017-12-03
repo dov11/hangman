@@ -19,3 +19,4 @@ const secretWord = words[Math.floor(Math.random()*words.length)]
                 .map(letter=> ({letter, guessed: false}))
 
 export default secretWord
+export {words}

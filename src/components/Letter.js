@@ -18,7 +18,7 @@ class Letter extends PureComponent {
 		return (
 			<button
 				onClick={this.sendGuess.bind(this)}
-				className={((this.props.clicked) ? this.props.correct : "not-clicked ")}
+				className={((this.props.clicked) ? this.props.correct : "not-clicked")+((this.props.letter==='Restart')?" restart":"")}
 				disabled={this.props.clicked}
 				>
 			{this.props.letter}
