@@ -2,14 +2,16 @@
 import React, {PureComponent} from 'react'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
+import Progress from './Progress'
+
 
 class Word extends PureComponent {
-	static propTypes = {
-		word: PropTypes.arrayOf(PropTypes.shape({
-			letter: PropTypes.string,
-			guessed: PropTypes.bool
-		}))
-	}
+	// static propTypes = {
+	// 	word: PropTypes.arrayOf(PropTypes.shape({
+	// 		letter: PropTypes.string,
+	// 		guessed: PropTypes.bool
+	// 	}))
+	// }
 
 	renderWord(letter, index) {
 		return (
@@ -21,8 +23,9 @@ class Word extends PureComponent {
 		return (
 			<div>
 				<h2>
-					{this.props.word.map(this.renderWord)}
+					{this.props.word.word.map(this.renderWord)}
 				</h2>
+				<Progress progress={this.props.word.progress}/>
 			</div>
 		)
 	}
