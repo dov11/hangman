@@ -21,7 +21,9 @@ export default (state = {word: secretWord, progress: 2}, { type, payload } = {})
       if (!state.word.map(a=>a.letter).includes(payload.letter)) {
         return {word: updated, progress: state.progress-1}
       }
-      else {
+      else if (!updated.map(a=>a.guessed).includes(false)){
+        return {word: updated, progress: 100}
+      } else {
         return {word: updated, progress: state.progress}
       }
     default :

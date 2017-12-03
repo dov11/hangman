@@ -17,10 +17,25 @@ class Progress extends PureComponent {
 			<div>
 			{
 				<div>
-					<h2>Lives Left: <span>{this.props.progress}</span></h2>
-					<img className="image" src={images[6-this.props.progress]} alt="hangman"/>
+					{
+						(this.props.progress < 100) ?
+							<div>
+								<h2>Lives Left: <span>{this.props.progress}</span></h2>
+								<img className="image" src={images[6-this.props.progress]} alt="hangman"/>
+							</div>
+						:
+						<div>
+							<h2>Well Done!</h2>
+							<img className="image" src={images[7]} alt="hangman"/>
+						</div>
+					}
 					<div>
-						{(!this.props.progress) ? <Letter letter='Restart' clicked={false} />: ""}
+						{
+							(!this.props.progress||this.props.progress===100) ?
+								<Letter letter='Restart' clicked={false} />
+							:
+							  ""
+						}
 					</div>
 				</div>
 			}
