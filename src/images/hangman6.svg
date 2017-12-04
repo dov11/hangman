@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.87830189"
-     inkscape:cx="170.4603"
-     inkscape:cy="300.57816"
+     inkscape:cx="9.3539633"
+     inkscape:cy="324.36704"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -72,69 +72,6 @@
        d="m 485.71429,320.93363 -214.28572,0"
        id="path3342"
        inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 318.3029,319.21505 0,57.14286"
-       id="path3346"
-       inkscape:connector-curvature="0" />
-    <ellipse
-       style="fill:#ff0000;fill-opacity:0;fill-rule:evenodd;stroke:#000000;stroke-width:1.08389711px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       id="path3348"
-       cx="318.797"
-       cy="416.47607"
-       rx="35.253429"
-       ry="41.515514" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 318.79699,454.61784 0,101.33191"
-       id="path4192"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 318.42313,457.18856 -41.4593,71.80959"
-       id="path4213"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 318.56144,456.28556 41.4593,71.80959"
-       id="path4213-3"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 319.93555,553.67262 -57.7137,99.96307"
-       id="path4268"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 319.54272,553.78776 57.7137,99.96307"
-       id="path4268-6"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 301.22449,392.97553 15.37057,15.37057"
-       id="path4775"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 315.74114,393.26017 -15.37057,15.37057"
-       id="path4775-5"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 326.98442,391.97929 15.37057,15.37057"
-       id="path4775-3"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 341.50107,392.26393 326.1305,407.6345"
-       id="path4775-5-5"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.07897854px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 304.54542,433.60895 c 10.58041,-4.10784 13.65943,-6.94189 36.24721,-1.36154"
-       id="path4816"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
     <ellipse
        style="opacity:0;fill:#ff0000;fill-opacity:0;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
        id="path4822"
@@ -142,16 +79,135 @@
        cy="395.53729"
        rx="14.232009"
        ry="26.471537" />
-    <path
-       style="fill:#ff0000;fill-rule:evenodd;stroke:#000000;stroke-width:0.995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 323.10263,429.66008 10.4854,1.79126 c -2.30578,5.1138 -3.45575,9.72901 -6.92336,11.73059 -4.74823,-1.76048 -1.33317,-7.68788 -3.56204,-13.52185 z"
-       id="path4826"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccc" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 328.9404,430.60675 -2.41525,10.66736"
-       id="path4828"
-       inkscape:connector-curvature="0" />
+    <g
+       id="g4151">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3346"
+         d="m 318.3029,319.21505 0,57.14286"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <ellipse
+         ry="41.515514"
+         rx="35.253429"
+         cy="416.47607"
+         cx="318.797"
+         id="path3348"
+         style="fill:#ff0000;fill-opacity:0;fill-rule:evenodd;stroke:#000000;stroke-width:1.08389711px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4192"
+         d="m 318.79699,454.61784 0,101.33191"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4213"
+         d="m 318.42313,457.18856 -41.4593,71.80959"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4213-3"
+         d="m 318.56144,456.28556 41.4593,71.80959"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4268"
+         d="m 319.93555,553.67262 -57.7137,99.96307"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4268-6"
+         d="m 319.54272,553.78776 57.7137,99.96307"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4775"
+         d="m 301.22449,392.97553 15.37057,15.37057"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4775-5"
+         d="m 315.74114,393.26017 -15.37057,15.37057"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4775-3"
+         d="m 326.98442,391.97929 15.37057,15.37057"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4775-5-5"
+         d="M 341.50107,392.26393 326.1305,407.6345"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path4816"
+         d="m 304.54542,433.60895 c 10.58041,-4.10784 13.65943,-6.94189 36.24721,-1.36154"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.07897854px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path4826"
+         d="m 323.10263,429.66008 10.4854,1.79126 c -2.30578,5.1138 -3.45575,9.72901 -6.92336,11.73059 -4.74823,-1.76048 -1.33317,-7.68788 -3.56204,-13.52185 z"
+         style="fill:#ff0000;fill-rule:evenodd;stroke:#000000;stroke-width:0.995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4828"
+         d="m 328.9404,430.60675 -2.41525,10.66736"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+         <animateTransform attributeName="transform"
+                    type="rotate"
+                    from="0 270 270" to="10 270 270"
+                    begin="0s" dur="1s"
+                    repeatCount="1"
+                    additive="sum"
+                    accumulate = "sum"
+                    
+          />
+         <animateTransform attributeName="transform"
+                    type="rotate"
+                    from="10 270 270" to="-10 270 270"
+                    begin="1s" dur="2s"
+                    repeatCount="1"
+                    additive="sum"
+                    accumulate = "sum"
+                    
+          />
+          <animateTransform attributeName="transform"
+                    type="rotate"
+                    from="-10 270 270" to="10 270 270"
+                    begin="3s" dur="2s"
+                    repeatCount="1"
+                    additive="sum"
+                    accumulate = "sum"
+                    
+          />
+          <animateTransform attributeName="transform"
+                    type="rotate"
+                    from="10 270 270" to="-10 270 270"
+                    begin="5s" dur="2s"
+                    repeatCount="1"
+                    additive="sum"
+                    accumulate = "sum"
+                    
+          />
+          <animateTransform attributeName="transform"
+                    type="rotate"
+                    from="-10 270 270" to="0 270 270"
+                    begin="7s" dur="1s"
+                    repeatCount="1"
+                    additive="sum"
+                    accumulate = "sum"
+                    
+          />
+          <!-- <animateTransform attributeName="transform"
+                    type="rotate"
+                    from="0 250 100" to="10 250 100"
+                    begin="2s" dur="2s"
+                    repeatCount="indefinite"
+                    additive="sum"
+                   
+          /> -->
+    </g>
   </g>
 </svg>
